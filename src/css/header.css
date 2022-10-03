@@ -46,7 +46,7 @@ header {
 
 .itens-menu {
     margin-right: 150px;
-    
+
 }
 
 .itens-menu a {
@@ -83,6 +83,8 @@ header {
 }
 
 .home {
+    background-image: url("../imagens/Rectangle 9.png");
+    background-size: 100% 100%;
     position: relative;
     width: 100%;
     min-height: 100vh;
