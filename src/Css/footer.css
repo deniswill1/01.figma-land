@@ -1,0 +1,32 @@
+footer {
+    width: 100%;
+    background-color: #252B42;
+    height: 400px;
+    
+
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.localiza {
+    display: flex;
+}
+
+.colum li {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.colum {
+    margin-right: 50px;
+}

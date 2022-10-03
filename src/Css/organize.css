@@ -1,0 +1,50 @@
+.organize {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 100px 250px;
+}
+
+.organize-text {
+    margin-right: 50px;
+}
+
+
+.organize-text h2 {
+    font-size: 1.9rem;
+}
+
+
+.organize-text p {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+
+.organize .button-organize{
+    background: #2091F9;
+    border-radius: 20px;
+    width: 250px;
+    height: 40px;
+    margin: 20px 0px;
+    transition: 0.3s ease;
+    text-align: center;
+}
+
+
+.organize .button-organize button {
+    font-size: 1.2rem;
+    width: 100px;
+    background-color: transparent;
+    border: none;
+    margin: 10px;
+    color: #fff;
+    
+}
+
+.organize .button-organize:hover {
+    transform: scale(1.050);
+}
