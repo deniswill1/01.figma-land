@@ -26,6 +26,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    cursor: pointer;
 
 }
 
@@ -36,7 +37,7 @@
     border: none;
     color: #fff;
     margin: 10px;
-
+    cursor: pointer;
 }
 
 .partners .button-part:hover {
@@ -72,4 +73,25 @@
 
 .img-part2 {
     display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .partners-container {
+        display: block;
+    }
+
+    .partner {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .partners p {
+        margin-bottom: 80px;
+    }
+
+    .partners {
+        padding: 50px 15px;
+    }
+
 }

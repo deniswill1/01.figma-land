@@ -27,7 +27,7 @@
 }
 
 .features-content {
-    width: 400px;
+     width: 400px; 
     height: 300px;
     margin-top: 40px;
     
@@ -52,4 +52,30 @@
     
     
     
+}
+
+
+@media screen and (max-width: 958px) {
+    
+    .features {
+        width: 100%;
+    }
+
+    .features-itens {
+        display: block;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .features-itens img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .features-content {
+        margin-right: 0px;
+        width: 410px;
+    }
 }

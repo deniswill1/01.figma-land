@@ -1,6 +1,6 @@
 .location {
     width: 100%;
-    padding: 80px 250px;
+    padding: 80px 15px;
 }
 
 .location h1 {
@@ -18,7 +18,7 @@
 }
 
 .location-forms .form {
-    width: 350px;
+    width: 500px;
     height: 500px;
     background-color: #fff;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
@@ -26,11 +26,12 @@
 
 .location-forms .form input {
     margin: 30px 40px;
-    width: 250px;
+    width: 400px;
     border: none;
     border-radius: 20px;
     height: 40px;
     background-color: rgb(235, 235, 235);
+    padding-left: 15px;
 }
 
 .form h2 {
@@ -42,12 +43,14 @@
 .form .button-location{
     background: #2091F9;
     border-radius: 20px;
-    width: 200px;
+    width: 400px;
     transition: 0.3s ease;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 20px 40px;
+    margin: 20px 30px;
+    cursor: pointer;
+
     
 }
 
@@ -58,7 +61,7 @@
     border: none;
     color: #fff;
     margin: 10px;
-     
+     cursor: pointer;
 }
 
 .form .button-location:hover {
@@ -88,7 +91,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
-    padding: 50px 250px;
+    padding: 50px 15px;
 }
 
 .form {
@@ -102,6 +105,9 @@
     text-align: center;
 }
 
+.social-media {
+    text-align: center;
+}
 
 .social-media a {
     font-size: 1.5rem;
@@ -113,4 +119,68 @@
 .social-media a:hover {
     color: #252B42;
     transform: scale(1.5);
+}
+
+
+@media screen and (max-width: 1050px) {
+
+   .location-forms {
+    display: block;
+    padding: 0px;
+   }
+
+   .location-forms .form {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+   }
+
+   .form h2 {
+    margin: 0px;
+    padding-top: 20px;
+   }
+
+   .location-forms .form input {
+    width: 350px;
+    padding-left: 15px;
+    margin: 30px 30px;
+   }
+
+   .form .button-location {
+    width: 350px;
+   }
+
+   .location-itens {
+    width: 100%;
+   }
+
+   .location-itens .map {
+    margin: 0;
+    padding-bottom: 40px;
+   }
+    
+   .location-itens .map img{
+    width: 100%;
+   }
+
+   .social-media {
+    text-align: center;
+    margin-bottom: 40px;
+   }
+
+   .location-text {
+    display: block;
+    padding: 40px 0px;
+   }
+
+   .location-text p{
+    font-size: 0.8rem;
+    margin-bottom: 40px;
+   }
+
+   .text-size {
+    margin: 0;
+   }
+
 }

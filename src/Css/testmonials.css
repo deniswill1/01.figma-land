@@ -1,6 +1,6 @@
 .testmo {
     width: 100%;
-    padding: 100px 250px;
+    padding: 100px 15px;
 }
 
 .testmo .button-test{
@@ -12,6 +12,7 @@
     justify-content: center;
     align-items: center;
     margin: auto;
+    cursor: pointer;
     
 }
 
@@ -22,7 +23,7 @@
     border: none;
     color: #fff;
     margin: 10px;
-     
+    cursor: pointer;
 }
 
 .testmo .button-test:hover {
@@ -44,4 +45,11 @@
     text-align: center;
     margin-bottom: 30px;
 
+}
+
+@media screen and (max-width: 768px) {
+    
+    .testmo {
+        display: block;
+    }
 }
