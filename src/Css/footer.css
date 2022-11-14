@@ -1,0 +1,111 @@
+footer {
+    width: 100%;
+    background-color: #252B42;
+    padding: 100px 15px;
+}
+
+.itens {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+.localiza {
+    display: flex;
+}
+
+.colum li {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.colum {
+    margin-right: 50px;
+}
+
+.colum h4 {
+    color: #fff;
+    margin-bottom: 30px;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+.localiza {
+    margin-bottom: 20px;
+}
+
+.localiza img {
+    color: #fff;
+}
+
+.localiza p {
+    color: #fff;
+    margin-left: 20px;
+}
+
+.localiza a i {
+    color: #fff;
+    width: 60px;
+    margin-top: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.localiza a i:hover {
+    color: #2091F9;
+    transition: 0.3s ease;
+    transform: scale(1.5);
+}
+
+@media screen and (max-width: 768px) {
+
+    .itens {
+        display: block;
+        text-align: center;
+    }
+
+    .colum h4 {
+        color: #fff;
+        margin: 30px auto;
+        font-weight: 800;
+    font-size: 1.2rem;
+
+    }
+
+    .social-footer {
+        display: block;
+        text-align: center;
+    }
+
+    .social-footer p {
+        color: #fff;
+        margin-left: 15px;
+    }
+
+    .colum {
+        margin: 0px;
+    }
+    
+    
+    .localiza {
+        justify-content: center;
+        align-items: center;
+        margin: 30px 0px;
+    }
+
+    .localiza a {
+        color: #fff;
+        width: 80px;
+    }
+
+    .localiza a i {
+        font-weight: 600;
+        font-size: 1.55rem;
+    }
+}

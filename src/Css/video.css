@@ -1,0 +1,14 @@
+.video {
+    padding: 0px 15px;
+}
+
+.video img {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+}

@@ -1,0 +1,97 @@
+.partners h2 {
+    text-align: center;
+}
+
+.partners p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.partners {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 100px 15px;
+}
+
+
+
+.partners .button-part{
+    background: #2091F9;
+    border-radius: 20px;
+    width: 200px;
+    transition: 0.3s ease;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    cursor: pointer;
+
+}
+
+
+.partners .button-part button {
+    font-size: 1.2rem;
+    background-color: transparent;
+    border: none;
+    color: #fff;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.partners .button-part:hover {
+    transform: scale(1.050);
+}
+
+
+.partners-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 30px auto;
+    width: 100%;
+    max-width: 1000px;
+}
+
+.partner {
+    width: calc(25% - 15px);
+    text-align: center;
+}
+
+
+.partiner h4 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.partiner img {
+    width: 100%;
+    height: 60px;
+}
+
+
+.img-part2 {
+    display: flex;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .partners-container {
+        display: block;
+    }
+
+    .partner {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .partners p {
+        margin-bottom: 80px;
+    }
+
+    .partners {
+        padding: 50px 15px;
+    }
+
+}
